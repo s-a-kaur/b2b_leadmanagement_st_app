@@ -1407,7 +1407,7 @@ def data_engineer_page():
     # ------------------------------------
 
     BASE_DIR = os.getcwd()
-    excel_path = os.path.join(BASE_DIR,"files","b2b_agentic_streamlit_demo_data.xlsx")
+    excel_path = os.path.join(BASE_DIR,"Files","b2b_agentic_streamlit_demo_data.xlsx")
 
     try:
         df = pd.read_excel(excel_path, sheet_name="Customer360")
